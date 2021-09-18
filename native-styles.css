@@ -11,25 +11,25 @@ header {
 
 /* background selectors */
 .greyBk {
-    background-image: linear-gradient(#575757, #8c8c8c)
+    background-color: #D0D0D0;
 }
 .redBk {
-    background-image: #f80808;
+    background-color: #f80808;
 }
 .orangeBk {
-    background-image: #fd9a05;
+    background-color: #fd9a05;
 }
 .yellowBk{
-    background-image: #ddd018;
+    background-color: #ddd018;
 }
 .greenBk {
-    background-image: #11cc11;
+    background-color: #11cc11;
 }
 .blueBk {
-    background-image: #0033ff;
+    background-color: #0033ff;
 }
 .purpleBk {
-    background-image: #8c00ff;
+    background-color: #8c00ff;
 }
 
 /* root: {
