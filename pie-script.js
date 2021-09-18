@@ -3,8 +3,10 @@ $(document).ready(function () {
   var original = "menu";
   var toOpen = "";
   var float;
-  var pageColor = $("#page");
+  var pageColor = $('#page');
+  var insideColor = $('#circle-middle')
   var option = $(".option");
+  console.log(pageColor)
 
   var delay = function (elem, callback) {
     var timeout = null;
@@ -20,23 +22,34 @@ $(document).ready(function () {
     });
   };
 
-  $(".over").mouseenter(function (event) {
-    float = true;
-    delay(document.getElementById(event.target.id), function (context) {
-      toOpen = document.getElementById(original.concat(context.id));
-      openMenu(toOpen);
-      previous = toOpen;
-    });
-  });
+  // $(".over").mouseenter(function (event) {
+  //   float = true;
+  //   delay(document.getElementById(event.target.id), function (context) {
+  //     toOpen = document.getElementById(original.concat(context.id));
+  //     openMenu(toOpen);
+  //     previous = toOpen;
+  //   });
+  // });
 
-  $(".clicky").click(function () {
-    openMenu(document.getElementById("menu8"));
-    previous = document.getElementById("menu8");
-  });
+  // $(".clicky").click(function () {
+  //   openMenu(document.getElementById("menu8"));
+  //   previous = document.getElementById("menu8");
+  // });
 
   option.click(function (event) {
-      pageColor.setAttribute("style", "background-color: #D0D0D0");
+    console.log(pageColor.attr("class"))
+    // insideColor.removeClass(pageColor.attr("class")).attr("class", $(this).attr("value"));
+    pageColor.removeClass(pageColor.attr("class")).attr("class", $(this).attr("value"));
+
+
   });
+
+
+
+
+
+
+
 
   //  function openMenu(context) { 
   //    closeMenu(previous);
@@ -49,3 +62,5 @@ $(document).ready(function () {
   //    $(context).toggleClass("hidden");
   //  }
 });
+
+// fetch('')
