@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,42 +9,73 @@
     <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script defer src="pie-script.js"></script>
     <link rel="stylesheet" href="pie-styles.css">
-    <!-- <link rel="stylesheet" href="native-styles.css" /> -->
+    <link rel="stylesheet" href="native-styles.css" />
 </head>
-<body class="css-selector">
 
-      <nav class="menunav">
+<body class="css-selector" id="page">
+  <header>
+    <h1>The Mood Ring</h1>
+    <p>Feel the Feelings.</p>
+  </header>
+    <!-- <div class ="hidden" id="menu1">
+        <h1><a href="https://www.jqueryscript.net/menu/">Menu</a> 1</h1>
+      </div>
+      <div class ="hidden" id="menu2">
+        <h1>Menu 2</h1>
+      </div>
+      <div class ="hidden" id="menu3">
+        <h1>Menu 3</h1>
+      </div>
+      <div class ="hidden" id="menu4">
+        <h1>Menu 4</h1>
+      </div>
+      <div class ="hidden" id="menu5">
+        <h1>Menu 5</h1>
+      </div>
+      <div class ="hidden" id="menu6">
+        <h1>Menu 6</h1>
+      </div>
+      <div class ="hidden" id="menu7">
+        <h1>Menu 7</h1>
+      </div>
+      <div class ="visible" id="menu8">
+        <h1>Menu</h1>
+        <p class="menudesc">Main Menu</p>
+      </div> -->
+
+    <nav class="menunav">
         <ul class="circle">
-          <li class="coconut light slice">
-            <label for="ococonut" class="circle over" id="1">Menu 1</label>
-          </li>
-          <li class="vanilla light slice">
-            <label for="ovanilla" class="circle over" id="2">Menu 2</label>
-          </li>
-          <li class="orange light slice">
-            <label for="oorange" class="circle over" id="3">Menu 3</label>
-          </li>
-          <li class="almond light slice">
-            <label for="oalmond" class="circle"><span class="over" id="4">Menu 4</span></label>
-          </li>
-          <li class="grape light slice">
-            <label for="ogrape" class="circle"><span class="over" id="5">Menu 5</span></label>
-          </li>
-          <li class="blackberry dark slice">
-            <label for="oblackberry" class="circle" ><span class="over" id="6">Menu 6</span></label>
-          </li>
-          <li class="cherry dark slice">
-            <label for="ocherry" class="circle" ><span class="over" id="7">Menu 7</span></label>
-          </li>
-          <li class="unsel circle">
-            <label for="unsel" class="clicky menuname">Menu</label>
-          </li>
-          <li class="middle circle"></li>
+            <li class="grey light slice option">
+                <label for="ogrey" class="circle over" id="1">Grey</label>
+            </li>
+            <li class="red light slice option">
+                <label for="ored" class="circle over" id="2">Red</label>
+            </li>
+            <li class="orange light slice option">
+                <label for="oorange" class="circle over" id="3">Orange</label>
+            </li>
+            <li class="yellow light slice option">
+                <label for="oyellow" class="circle"><span class="over" id="4">Yellow</span></label>
+            </li>
+            <li class="green light slice option">
+                <label for="ogreen" class="circle"><span class="over" id="5">Green</span></label>
+            </li>
+            <li class="blue dark slice option">
+                <label for="oblue" class="circle"><span class="over" id="6">Blue</span></label>
+            </li>
+            <li class="purple dark slice option">
+                <label for="opurple" class="circle"><span class="over" id="7">Purple</span></label>
+            </li>
+            <li class="unsel circle">
+                <label for="unsel" class="clicky menuname">Back</label>
+            </li>
+            <li class="middle circle" id="page"></li>
         </ul>
-      </nav>
+    </nav>
 
 
 
     <script src="script.js"></script>
 </body>
+
 </html>

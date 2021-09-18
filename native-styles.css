@@ -1,3 +1,13 @@
+header {
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet,grey);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 1%;
+    font-weight: bold;
+};
+
 /* root: {
    
    --light: ;
@@ -6,21 +16,21 @@
 
 } */
 
-* {
+/* * {
     
     font-family: Arial, Helvetica, sans-serif;
     font-size: 120%;
 }
 
-body {
+/* body {
     /* background */
-    background: rgb(0,0,0);
+   /* background: rgb(0,0,0);
     /* background: linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(62,62,62,1) 100%); */
-}
+/* }
 
-.menu {
+/* .menu {
     /* div class container MENU*/
-    color: white;
+    /* color: white;
     text-align: center;
     justify-content: space-between;
 }
@@ -29,11 +39,11 @@ body {
     buttons to select mood/specifications
 } */
 
-.button:hover {
+/* .button:hover {
     font-style: italic;
 }
 
-.css-selector {
+/* .css-selector {
     background: linear-gradient(221deg, #0f323a, #00dbff);
     background-size: 1200%;
 
