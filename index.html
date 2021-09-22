@@ -1,21 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MoodRing</title>
-    <link rel="stylesheet" href="style.css" />
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script defer src="pie-script.js"></script>
+    <!-- CSS STYLESHEETS -->
+    <link rel="stylesheet" href="native-styles.css" />
+    <link rel="stylesheet" href="pie-styles.css">
+    
 </head>
-<body class="css-selector">
 
-    <div class = "menu">
-        
-        <div>Warm</div>
-        <div>Cool</div>
-        <div>Neutral</div>
+<body class="css-selector black" id="page">
+  <header>
+    <h1>The Mood Ring</h1>
+    <p>Feel the Feelings.</p>
+  </header>
+    <!-- <div class ="hidden" id="menu1">
+        <h1><a href="https://www.jqueryscript.net/menu/">Menu</a> 1</h1>
+      </div>
+      <div class ="hidden" id="menu2">
+        <h1>Menu 2</h1>
+      </div>
+      <div class ="hidden" id="menu3">
+        <h1>Menu 3</h1>
+      </div>
+      <div class ="hidden" id="menu4">
+        <h1>Menu 4</h1>
+      </div>
+      <div class ="hidden" id="menu5">
+        <h1>Menu 5</h1>
+      </div>
+      <div class ="hidden" id="menu6">
+        <h1>Menu 6</h1>
+      </div>
+      <div class ="hidden" id="menu7">
+        <h1>Menu 7</h1>
+      </div>
+      <div class ="visible" id="menu8">
+        <h1>Menu</h1>
+        <p class="menudesc">Main Menu</p>
+      </div> -->
 
-    </div>
+    <nav class="menunav">
+        <ul class="circle">
+            <li data= "feels" class="grey light slice option" value="greyBk">
+                <label for="ogrey" class="circle over" id="meh">Grey</label>
+            </li>
+            <li data= "feels" class="red light slice option" value="redBk">
+                <label for="ored" class="circle over" id="lovey-dovey">Red</label>
+            </li>
+            <li data= "feels" class="orange light slice option" value="orangeBk">
+                <label for="oorange" class="circle over" id="enthusiasm">Orange</label>
+            </li>
+            <li data= "feels" class="yellow light slice option" value="yellowBk">
+                <label for="oyellow" class="circle"><span class="over" id="energetic">Yellow</span></label>
+            </li>
+            <li data= "feels" class="green light slice option" value="greenBk">
+                <label for="ogreen" class="circle"><span class="over" id="envious">Green</span></label>
+            </li>
+            <li data= "feels" class="blue dark slice option" value="blueBk">
+                <label for="oblue" class="circle"><span class="over" id="relaxing">Blue</span></label>
+            </li>
+            <li data= "feels" class="purple dark slice option" value="purpleBk">
+                <label for="opurple" class="circle"><span class="over" id="rich">Purple</span></label>
+            </li>
+            <!-- <li class="unsel circle">
+                <label for="unsel" class="clicky menuname">Back</label>
+            </li> -->
+            <li class="middle circle black" id="circle-middle"></li>
+        </ul>
+    </nav>
+
+    <div id="feelings-feedback"></div>
+<!-- JAVASCRIPT -->
     <script src="script.js"></script>
 </body>
-</html>

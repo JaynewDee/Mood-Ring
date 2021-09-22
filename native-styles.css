@@ -1,0 +1,86 @@
+header {
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet,grey);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: .2%;
+    font-weight: bold;
+    line-height: .2px;
+};
+
+/* background selectors */
+.greyBk {
+    background-color: #D0D0D0;
+}
+.redBk {
+    background-color: #f80808;
+}
+.orangeBk {
+    background-color: #fd9a05;
+}
+.yellowBk{
+    background-color: #ddd018;
+}
+.greenBk {
+    background-color: #11cc11;
+}
+.blueBk {
+    background-color: #0033ff;
+}
+.purpleBk {
+    background-color: #8c00ff;
+}
+
+/* root: {
+   
+   --light: ;
+   --dark: ;
+   --accent: ;
+} */
+
+/* * {
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120%;
+}
+/* body {
+    /* background */
+   /* background: rgb(0,0,0);
+    /* background: linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(62,62,62,1) 100%); */
+/* }
+/* .menu {
+    /* div class container MENU*/
+    /* color: white;
+    text-align: center;
+    justify-content: space-between;
+}
+/* .button {
+    buttons to select mood/specifications
+} */
+
+/* .button:hover {
+    font-style: italic;
+}
+
+.css-selector {
+   background: linear-gradient(221deg, #0f323a, #00dbff);
+   background-size: 1200%;
+   -webkit-animation: AnimationName 32s ease infinite;
+   -moz-animation: AnimationName 32s ease infinite;
+   animation: AnimationName 32s ease infinite;
+
+-webkit-keyframes AnimationName {
+   0%{background-position:0% 64%}
+   50%{background-position:100% 37%}
+   100%{background-position:0% 64%}
+
+-moz-keyframes AnimationName {
+   0%{background-position:0% 64%}
+   50%{background-position:100% 37%}
+   100%{background-position:0% 64%}
+
+keyframes AnimationName {
+   0%{background-position:0% 64%}
+   50%{background-position:100% 37%}
+   100%{background-position:0% 64%}
