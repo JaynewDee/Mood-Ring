@@ -8,6 +8,7 @@
     <title>MoodRing</title>
     <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script defer src="pie-script.js"></script>
+    <!-- CSS STYLESHEETS -->
     <link rel="stylesheet" href="native-styles.css" />
     <link rel="stylesheet" href="pie-styles.css">
     
@@ -46,26 +47,26 @@
 
     <nav class="menunav">
         <ul class="circle">
-            <li class="grey light slice option" value="greyBk">
-                <label for="ogrey" class="circle over" id="1">Apathetic(Grey)</label>
+            <li data= "feels" class="grey light slice option" value="greyBk">
+                <label for="ogrey" class="circle over" id="meh">Grey</label>
             </li>
-            <li class="red light slice option" value="redBk">
-                <label for="ored" class="circle over" id="2">Red</label>
+            <li data= "feels" class="red light slice option" value="redBk">
+                <label for="ored" class="circle over" id="lovey-dovey">Red</label>
             </li>
-            <li class="orange light slice option" value="orangeBk">
-                <label for="oorange" class="circle over" id="3">Orange</label>
+            <li data= "feels" class="orange light slice option" value="orangeBk">
+                <label for="oorange" class="circle over" id="enthusiasm">Orange</label>
             </li>
-            <li class="yellow light slice option" value="yellowBk">
-                <label for="oyellow" class="circle"><span class="over" id="4">Yellow</span></label>
+            <li data= "feels" class="yellow light slice option" value="yellowBk">
+                <label for="oyellow" class="circle"><span class="over" id="energetic">Yellow</span></label>
             </li>
-            <li class="green light slice option" value="greenBk">
-                <label for="ogreen" class="circle"><span class="over" id="5">Green</span></label>
+            <li data= "feels" class="green light slice option" value="greenBk">
+                <label for="ogreen" class="circle"><span class="over" id="envious">Green</span></label>
             </li>
-            <li class="blue dark slice option" value="blueBk">
-                <label for="oblue" class="circle"><span class="over" id="6">Blue</span></label>
+            <li data= "feels" class="blue dark slice option" value="blueBk">
+                <label for="oblue" class="circle"><span class="over" id="relaxing">Blue</span></label>
             </li>
-            <li class="purple dark slice option" value="purpleBk">
-                <label for="opurple" class="circle"><span class="over" id="7">Purple</span></label>
+            <li data= "feels" class="purple dark slice option" value="purpleBk">
+                <label for="opurple" class="circle"><span class="over" id="rich">Purple</span></label>
             </li>
             <!-- <li class="unsel circle">
                 <label for="unsel" class="clicky menuname">Back</label>
@@ -75,8 +76,6 @@
     </nav>
 
     <div id="feelings-feedback"></div>
-
+<!-- JAVASCRIPT -->
     <script src="script.js"></script>
 </body>
-
-</html>

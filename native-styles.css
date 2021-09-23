@@ -6,7 +6,7 @@ header {
     margin: 0;
     padding: .2%;
     font-weight: bold;
-    line-height: 1px;
+    line-height: .2px;
 };
 
 /* background selectors */
@@ -37,7 +37,6 @@ header {
    --light: ;
    --dark: ;
    --accent: ;
-
 } */
 
 /* * {
@@ -45,20 +44,17 @@ header {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 120%;
 }
-
 /* body {
     /* background */
    /* background: rgb(0,0,0);
     /* background: linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(62,62,62,1) 100%); */
 /* }
-
 /* .menu {
     /* div class container MENU*/
     /* color: white;
     text-align: center;
     justify-content: space-between;
 }
-
 /* .button {
     buttons to select mood/specifications
 } */
@@ -67,27 +63,24 @@ header {
     font-style: italic;
 }
 
-/* .css-selector {
-    background: linear-gradient(221deg, #0f323a, #00dbff);
-    background-size: 1200%;
+.css-selector {
+   background: linear-gradient(221deg, #0f323a, #00dbff);
+   background-size: 1200%;
+   -webkit-animation: AnimationName 32s ease infinite;
+   -moz-animation: AnimationName 32s ease infinite;
+   animation: AnimationName 32s ease infinite;
 
-    -webkit-animation: AnimationName 32s ease infinite;
-    -moz-animation: AnimationName 32s ease infinite;
-    animation: AnimationName 32s ease infinite;
-}
+-webkit-keyframes AnimationName {
+   0%{background-position:0% 64%}
+   50%{background-position:100% 37%}
+   100%{background-position:0% 64%}
 
-@-webkit-keyframes AnimationName {
-    0%{background-position:0% 64%}
-    50%{background-position:100% 37%}
-    100%{background-position:0% 64%}
-}
-@-moz-keyframes AnimationName {
-    0%{background-position:0% 64%}
-    50%{background-position:100% 37%}
-    100%{background-position:0% 64%}
-}
-@keyframes AnimationName {
-    0%{background-position:0% 64%}
-    50%{background-position:100% 37%}
-    100%{background-position:0% 64%}
-}
+-moz-keyframes AnimationName {
+   0%{background-position:0% 64%}
+   50%{background-position:100% 37%}
+   100%{background-position:0% 64%}
+
+keyframes AnimationName {
+   0%{background-position:0% 64%}
+   50%{background-position:100% 37%}
+   100%{background-position:0% 64%}
