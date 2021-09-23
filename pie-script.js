@@ -82,6 +82,7 @@ const apiData = () => {
 fetchedData = (apiData) => {
   console.log(apiData)
 }
+
 var grey = document.querySelector('#meh');
 var red = document.querySelector('#lovey-dovey');
 var orange = document.querySelector('#enthusiasm');
@@ -102,19 +103,7 @@ console.log(yellow);
     // })
 // }
 
-// $(".over").mouseenter(function (event) {
-  //   float = true;
-  //   delay(document.getElementById(event.target.id), function (context) {
-  //     toOpen = document.getElementById(original.concat(context.id));
-  //     openMenu(toOpen);
-  //     previous = toOpen;
-  //   });
-  // });
 
-  // $(".clicky").click(function () {
-  //   openMenu(document.getElementById("menu8"));
-  //   previous = document.getElementById("menu8");
-  // });
 
 
 
@@ -129,22 +118,8 @@ option.click(function (event) {
   });
 
 
-
-
-
-
-
-
-  //  function openMenu(context) { 
-  //    closeMenu(previous);
-  //    $(context).toggleClass("visible"); 
-  //    $(context).toggleClass("hidden");
-  //  }
-
-  //  function closeMenu(context) {
-  //    $(context).toggleClass("visible");
-  //    $(context).toggleClass("hidden");
-  //  }
 });
 
 // fetch('')
+
+
