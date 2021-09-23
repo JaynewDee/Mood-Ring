@@ -7,6 +7,7 @@ $(document).ready(function () {
   var insideColor = $('#circle-middle')
   var option = $(".option");
   console.log(pageColor)
+<<<<<<< HEAD
   var searchTerm
 
 // color variables 
@@ -60,6 +61,8 @@ const apiData = () => {
     })
 }
 
+=======
+>>>>>>> e362c945bf4fddded46e2c89e2818dbf650b5e78
 
   var delay = function (elem, callback) {
     var timeout = null;
@@ -75,6 +78,7 @@ const apiData = () => {
     });
   };
 
+<<<<<<< HEAD
 
 // -------------------------------------------------------------------------------------
 
@@ -103,6 +107,9 @@ console.log(yellow);
 // }
 
 // $(".over").mouseenter(function (event) {
+=======
+  // $(".over").mouseenter(function (event) {
+>>>>>>> e362c945bf4fddded46e2c89e2818dbf650b5e78
   //   float = true;
   //   delay(document.getElementById(event.target.id), function (context) {
   //     toOpen = document.getElementById(original.concat(context.id));
@@ -116,11 +123,15 @@ console.log(yellow);
   //   previous = document.getElementById("menu8");
   // });
 
+<<<<<<< HEAD
 
 
 
 //   COLOR CHANGER -----------------------------------------------------------------------------------
 option.click(function (event) {
+=======
+  option.click(function (event) {
+>>>>>>> e362c945bf4fddded46e2c89e2818dbf650b5e78
     console.log(pageColor.attr("class"))
     // insideColor.removeClass(pageColor.attr("class")).attr("class", $(this).attr("value"));
     pageColor.removeClass(pageColor.attr("class")).attr("class", $(this).attr("value"));
