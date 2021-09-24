@@ -6,5 +6,5 @@
 
   >> AS A feeling human ...   
   >> I WANT an app that considers my feelings ...   
-  >> SO THAT I can see media based on my current emotional state.
+  >> SO THAT I can see media related to my current emotional state.
 
