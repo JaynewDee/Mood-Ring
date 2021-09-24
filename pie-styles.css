@@ -107,37 +107,51 @@ body {
 /* Cell background colors */
 .grey label,
 .ogrey:checked~nav .unsel {
-    background: #D0D0D0;
+    border: solid #D0D0D0;
+    border-width: 10px;
+    color: #D0D0D0;
 }
 
 .red label,
 .ored:checked~nav .unsel {
-    background: #f80808;
+    border: solid #f80808;
+    border-width: 10px;
+    color: #f80808;
 }
 
 .orange label,
 .oorange:checked~nav .unsel {
-    background: #fd9a05;
+    border: solid #fd9a05;
+    border-width: 10px;
+    color: #fd9a05;
 }
 
 .yellow label,
 .oyellow:checked~nav .unsel {
-    background: #ddd018;
+    border: solid #ddd018;
+    border-width: 10px;
+    color: #ddd018;
 }
 
-.green label,
+.green label, /*could be gradients*/
 .ogreen:checked~nav .unsel {
-    background: #11cc11;
+    border: solid #11cc11;
+    border-width: 10px;
+    color: #11cc11;
 }
 
 .blue label,
 .oblue:checked~nav .unsel {
-    background: #0033ff;
+    border: solid #0033ff;
+    border-width: 10px;
+    color: #0033ff;
 }
 
 .purple label,
 .opurple:checked~nav .unsel {
-    background: #8c00ff;
+    border: solid #8c00ff;
+    border-width: 10px;
+    color: #8c00ff;
 }
 
 .slice label {
@@ -219,4 +233,5 @@ body {
     -moz-transform: rotate(-180deg);
     -o-transform: rotate(-180deg);
     transform: rotate(-180deg);
+    pointer-events: none;
 }

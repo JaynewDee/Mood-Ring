@@ -45,35 +45,35 @@
         <p class="menudesc">Main Menu</p>
       </div> -->
 
-    <nav class="menunav">
-        <ul class="circle">
-            <li data= "feels" class="grey light slice option" value="greyBk">
-                <label for="ogrey" class="circle over" id="meh">Grey</label>
+    <form class="menunav">
+        <ul class="circle" id="circle">
+            <li class="grey light slice option" value="greyBk" data-parent="meh">
+                <label for="ogrey" class="circle over" id="meh" data-parent="meh">Grey</label>
             </li>
-            <li data= "feels" class="red light slice option" value="redBk">
+            <li class="red light slice option" value="redBk" data-parent="lovey-dovey">
                 <label for="ored" class="circle over" id="lovey-dovey">Red</label>
             </li>
-            <li data= "feels" class="orange light slice option" value="orangeBk">
+            <li class="orange light slice option" value="orangeBk" data-parent="enthusiasm">
                 <label for="oorange" class="circle over" id="enthusiasm">Orange</label>
             </li>
-            <li data= "feels" class="yellow light slice option" value="yellowBk">
-                <label for="oyellow" class="circle"><span class="over" id="energetic">Yellow</span></label>
+            <li class="yellow light slice option" value="yellowBk" data-parent="energetic">
+                <label for="oyellow" class="circle" id="energetic"><span class="over">Yellow</span></label>
             </li>
-            <li data= "feels" class="green light slice option" value="greenBk">
-                <label for="ogreen" class="circle"><span class="over" id="envious">Green</span></label>
+            <li class="green light slice option" value="greenBk" data-parent="envious">
+                <label for="ogreen" class="circle"id="envious"><span class="over">Green</span></label>
             </li>
-            <li data= "feels" class="blue dark slice option" value="blueBk">
-                <label for="oblue" class="circle"><span class="over" id="relaxing">Blue</span></label>
+            <li class="blue dark slice option" value="blueBk" data-parent="relaxing">
+                <label for="oblue" class="circle" id="relaxing"><span class="over">Blue</span></label>
             </li>
-            <li data= "feels" class="purple dark slice option" value="purpleBk">
-                <label for="opurple" class="circle"><span class="over" id="rich">Purple</span></label>
+            <li class="purple dark slice option" value="purpleBk" data-parent="rich">
+                <label for="opurple" class="circle" id="rich"><span class="over">Purple</span></label>
             </li>
             <!-- <li class="unsel circle">
                 <label for="unsel" class="clicky menuname">Back</label>
             </li> -->
             <li class="middle circle black" id="circle-middle"></li>
         </ul>
-    </nav>
+    </form>
 
     <div id="feelings-feedback"></div>
 <!-- JAVASCRIPT -->
