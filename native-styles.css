@@ -58,7 +58,28 @@ header {
 
 
 
+@media screen and (max-width: 576px) {
+    * {
+        display: column;
+        text-align: center;
+        font-size:inherit;
+    }
 
+    .bkBtn {
+        position: inline;
+        display: flex;
+        justify-content: left;
+        align-content: center;
+        
+    }
+}
+
+@media screen and (max-width: 980px) {
+    * {
+        display: column;
+        text-align: center;
+        font-size:inherit;
+}
 
 
 
