@@ -9,9 +9,8 @@
     <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script defer src="pie-script.js"></script>
     <!-- CSS STYLESHEETS -->
-    <link rel="stylesheet" href="native-styles.css" />
+    <link rel="stylesheet" href="native-styles.css">
     <link rel="stylesheet" href="pie-styles.css">
-    
 </head>
 
 <body class="css-selector black" id="page">
@@ -20,10 +19,10 @@
     <p>Feel the Feelings.</p>
   </header>
 
-  
+
     <nav class="menunav">
         <ul class="circle">
-            <li data-index='0' class="grey light slice option" value="greyBk">
+            <li data-index='0' class="grey light slice option" value="greyBk" data="https://widget.deezer.com/widget/dark/album/260203642?autoplay=1">
                 <label for="ogrey" class="circle over" id="meh">Grey</label>
             </li>
             <li data-index='1' class="red light slice option" value="redBk">
@@ -52,10 +51,9 @@
     </nav>
 
 
-    
-<footer>
-  <iframe title="deezer-widget" src="https://widget.deezer.com/widget/dark/playlist/undefined?tracklist=false" width="100%" height="200" frameborder="0" allowtransparency="true" allow="encrypted-media; clipboard-write"></iframe>
-</footer>
+    <footer>
+        <iframe id="musicPlayer" title="deezer-widget" allow="autoplay" src="https://widget.deezer.com/widget/dark/playlist" width="100%" height="150" frameborder="0" allowtransparency="true" allow="encrypted-media; clipboard-write"></iframe>
+    </footer>
 
     <div id="feelings-feedback"></div>
 <!-- JAVASCRIPT -->

@@ -113,15 +113,19 @@ option.click(function (event) {
     console.log(pageColor.attr("class"))
     // insideColor.removeClass(pageColor.attr("class")).attr("class", $(this).attr("value"));
     pageColor.removeClass(pageColor.attr("class")).attr("class", $(this).attr("value"));
+    musicPlayer.removeClass(musicPlayer.attr("src")).attr("src", $(this).attr("data"));
 
 
   });
 
 
 });
-
 // MUSIC FETCH
 
+var musicPlayer = $("#musicPlayer")
+const deezerURL = ""
+
+console.log(musicPlayer)
 
 
 
