@@ -1,4 +1,4 @@
-h1 {    
+#headline {    
     width: 100%;
     text-align: center;
     top: 40vh;
@@ -11,6 +11,7 @@ h1 {
     align-items:center;
     text-shadow: 1px 1px 5px 3px #ff0;
   }
+
   form {
       position: relative;
       display: flex;

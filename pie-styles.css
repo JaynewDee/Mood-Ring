@@ -14,8 +14,8 @@ body {
     position: relative;
     display: block;
     margin: 10vh auto;
-    min-width: 10em;
-    width: 40%;
+    min-width: 16em;
+    width: 45%;
 }
 
 .menunav ul {
@@ -233,25 +233,27 @@ body {
     pointer-events: none;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 575px) {
     * {
-        display: column;
         text-align: center;
-        font-size:inherit;
+        font-size: inherit;
+    }
+    
+    .menunav {
+        width: 80%;
     }
 
-    .bkBtn {
-        position: inline;
-        display: flex;
-        justify-content: left;
-        align-content: center;
+    
+}
 
+@media screen and (max-width: 800px) {
+    .menunav {
+        width: 65%;
     }
 }
 
-@media screen and (max-width: 980px) {
-    * {
-        display: column;
-        text-align: center;
-        font-size:inherit;
+@media screen and (max-width: 1000px) {
+    .menunav {
+        width: 50%;
+    }
 }
