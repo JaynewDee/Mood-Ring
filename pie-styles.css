@@ -3,9 +3,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.black {
-    background-color: black;
-}
 
 .circle,
 .circle:before,
@@ -18,7 +15,7 @@ body {
     display: block;
     margin: 10vh auto;
     min-width: 10em;
-    width: 75%;
+    width: 40%;
 }
 
 .menunav ul {
@@ -114,44 +111,44 @@ body {
 
 .red label,
 .ored:checked~nav .unsel {
-    border: solid #f80808;
+    border: solid #b80202;
     border-width: 10px;
-    color: #f80808;
+    color: #b80202;
 }
 
 .orange label,
 .oorange:checked~nav .unsel {
-    border: solid #fd9a05;
+    border: solid #b67617;
     border-width: 10px;
-    color: #fd9a05;
+    color: #b67617;
 }
 
 .yellow label,
 .oyellow:checked~nav .unsel {
-    border: solid #ddd018;
+    border: solid #afa629;
     border-width: 10px;
-    color: #ddd018;
+    color: #afa629;
 }
 
 .green label, /*could be gradients*/
 .ogreen:checked~nav .unsel {
-    border: solid #11cc11;
+    border: solid #22a722;
     border-width: 10px;
-    color: #11cc11;
+    color: #22a722;
 }
 
 .blue label,
 .oblue:checked~nav .unsel {
-    border: solid #0033ff;
+    border: solid #0f2eaa;
     border-width: 10px;
-    color: #0033ff;
+    color: #0f2eaa;
 }
 
 .purple label,
 .opurple:checked~nav .unsel {
-    border: solid #8c00ff;
+    border: solid #6c12b6;
     border-width: 10px;
-    color: #8c00ff;
+    color: #6c12b6;
 }
 
 .slice label {
@@ -234,4 +231,27 @@ body {
     -o-transform: rotate(-180deg);
     transform: rotate(-180deg);
     pointer-events: none;
+}
+
+@media screen and (max-width: 576px) {
+    * {
+        display: column;
+        text-align: center;
+        font-size:inherit;
+    }
+
+    .bkBtn {
+        position: inline;
+        display: flex;
+        justify-content: left;
+        align-content: center;
+
+    }
+}
+
+@media screen and (max-width: 980px) {
+    * {
+        display: column;
+        text-align: center;
+        font-size:inherit;
 }

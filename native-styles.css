@@ -1,6 +1,6 @@
 header {
     background-image: linear-gradient(to right, black, red,orange,yellow,green,blue,indigo,violet,grey, black);
-    color: white;
+    color: rgb(213, 213, 213);
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     margin-bottom: 25%;
@@ -11,7 +11,7 @@ header {
 
 /* background selectors */
 .greyBk {
-    background-color: #8d8d8d;
+    background-color: #878787;
 }
 .redBk {
     background-color: #f80808;
@@ -32,55 +32,47 @@ header {
     background-color: #8c00ff;
 }
 
-/* root: {
-   
-   --light: ;
-   --dark: ;
-   --accent: ;
-} */
 
-/* * {
-    
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 120%;
-}
-/* body {
-    /* background */
-   /* background: rgb(0,0,0);
-    /* background: linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(62,62,62,1) 100%); */
-/* }
-/* .menu {
-    /* div class container MENU*/
-    /* color: white;
-    text-align: center;
-    justify-content: space-between;
-}
-/* .button {
-    buttons to select mood/specifications
-} */
 
-/* .button:hover {
-    font-style: italic;
+.bkBtn {
+    position: relative;
+    z-index: 3;
+    margin: 0;
+    padding: 1%;
+    width: 10%;
+    border: .2%;
+    border-color: aliceblue;
+    border-radius: 5%;
+    background-color: none;
+    color: rgb(213, 213, 213);
 }
 
-.css-selector {
-   background: linear-gradient(221deg, #0f323a, #00dbff);
-   background-size: 1200%;
-   -webkit-animation: AnimationName 32s ease infinite;
-   -moz-animation: AnimationName 32s ease infinite;
-   animation: AnimationName 32s ease infinite;
+.bkBtn:hover {
+    cursor: pointer;
+}
 
--webkit-keyframes AnimationName {
-   0%{background-position:0% 64%}
-   50%{background-position:100% 37%}
-   100%{background-position:0% 64%}
 
--moz-keyframes AnimationName {
-   0%{background-position:0% 64%}
-   50%{background-position:100% 37%}
-   100%{background-position:0% 64%}
 
-keyframes AnimationName {
-   0%{background-position:0% 64%}
-   50%{background-position:100% 37%}
-   100%{background-position:0% 64%}
+@media screen and (max-width: 576px) {
+    * {
+        display: column;
+        text-align: center;
+        font-size:inherit;
+       
+    }
+
+    .bkBtn {
+        position: inline;
+        display: flex;
+        justify-content: left;
+        align-content: center;
+        
+    }
+}
+
+@media screen and (max-width: 980px) {
+    * {
+        display: column;
+        text-align: center;
+        font-size:inherit;
+}

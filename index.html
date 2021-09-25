@@ -11,61 +11,40 @@
     <!-- CSS STYLESHEETS -->
     <link rel="stylesheet" href="native-styles.css" />
     <link rel="stylesheet" href="pie-styles.css">
+    <link rel="stylesheet" href="intro.css"/>
     
 </head>
 
-<body class="css-selector black" id="page">
+<body class="css-selector aurora" id="page">
   <header>
     <h1>The Mood Ring</h1>
     <p>Feel the Feelings.</p>
+    <form action="./about.html"> 
+      <button type= "submit" class = "bkBtn" href= "about.html">About Us</button> 
+    </form>
   </header>
-    <!-- <div class ="hidden" id="menu1">
-        <h1><a href="https://www.jqueryscript.net/menu/">Menu</a> 1</h1>
-      </div>
-      <div class ="hidden" id="menu2">
-        <h1>Menu 2</h1>
-      </div>
-      <div class ="hidden" id="menu3">
-        <h1>Menu 3</h1>
-      </div>
-      <div class ="hidden" id="menu4">
-        <h1>Menu 4</h1>
-      </div>
-      <div class ="hidden" id="menu5">
-        <h1>Menu 5</h1>
-      </div>
-      <div class ="hidden" id="menu6">
-        <h1>Menu 6</h1>
-      </div>
-      <div class ="hidden" id="menu7">
-        <h1>Menu 7</h1>
-      </div>
-      <div class ="visible" id="menu8">
-        <h1>Menu</h1>
-        <p class="menudesc">Main Menu</p>
-      </div> -->
 
     <form class="menunav">
         <ul class="circle" id="circle">
-            <li class="grey light slice option" value="greyBk" data-parent="meh">
+            <li class="grey light slice option" value="greyBk" data-parent="meh" data="https://widget.deezer.com/widget/dark/album/260203642?autoplay=1">
                 <label for="ogrey" class="circle over" id="meh" data-parent="meh">Grey</label>
             </li>
-            <li class="red light slice option" value="redBk" data-parent="lovey-dovey">
+            <li class="red light slice option" value="redBk" data-parent="lovey-dovey" data="https://widget.deezer.com/widget/dark/playlist/2891709186?autoplay=1">
                 <label for="ored" class="circle over" id="lovey-dovey">Red</label>
             </li>
-            <li class="orange light slice option" value="orangeBk" data-parent="enthusiasm">
+            <li class="orange light slice option" value="orangeBk" data-parent="enthusiasm" data="https://widget.deezer.com/widget/dark/playlist/9431895182?autoplay=1">
                 <label for="oorange" class="circle over" id="enthusiasm">Orange</label>
             </li>
-            <li class="yellow light slice option" value="yellowBk" data-parent="energetic">
+            <li class="yellow light slice option" value="yellowBk" data-parent="energetic" data="https://widget.deezer.com/widget/dark/playlist/1295485847?autoplay=1">
                 <label for="oyellow" class="circle" id="energetic"><span class="over">Yellow</span></label>
             </li>
-            <li class="green light slice option" value="greenBk" data-parent="envious">
+            <li class="green light slice option" value="greenBk" data-parent="envious" data="https://widget.deezer.com/widget/dark/album/65413502?autoplay=1">
                 <label for="ogreen" class="circle"id="envious"><span class="over">Green</span></label>
             </li>
-            <li class="blue dark slice option" value="blueBk" data-parent="relaxing">
+            <li class="blue dark slice option" value="blueBk" data-parent="relaxing" data="https://widget.deezer.com/widget/dark/playlist/1257031321?autoplay=1">
                 <label for="oblue" class="circle" id="relaxing"><span class="over">Blue</span></label>
             </li>
-            <li class="purple dark slice option" value="purpleBk" data-parent="rich">
+            <li class="purple dark slice option" value="purpleBk" data-parent="rich" data="https://widget.deezer.com/widget/dark/playlist/8174942102?autoplay=1">
                 <label for="opurple" class="circle" id="rich"><span class="over">Purple</span></label>
             </li>
             <!-- <li class="unsel circle">
@@ -76,6 +55,12 @@
     </form>
 
     <div id="feelings-feedback"></div>
+    
+
+    <footer>
+      <iframe id="musicPlayer" title="deezer-widget" allow="autoplay" src="https://widget.deezer.com/widget/dark/playlist" width="100%" height="150" frameborder="0" allowtransparency="true" allow="encrypted-media; clipboard-write"></iframe>
+    </footer>
+
 <!-- JAVASCRIPT -->
     <script src="script.js"></script>
 </body>
