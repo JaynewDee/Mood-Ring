@@ -1,0 +1,77 @@
+h1
+	position absolute
+	width 100%
+	text-align center
+	top 40vh
+	color alpha(#fff, 0.7)
+	font-family 'Trebuchet MS', Helvetica, sans-serif
+	letter-spacing .7em
+	font-size 20pt
+	font-weight normal
+	text-transform uppercase
+	text-shadow: 
+		1px 1px 5px 3px #ff0
+.small
+	text-transform none
+	color alpha(#fff, .3)
+	font-size .5em
+	letter-spacing .3em
+	line-height .5em
+
+// *** Magic starts HERE
+diameter = 35vmax
+
+.aurora
+	background #000
+	position relative
+	&:before,
+	&:after
+		content ''
+		display block
+		position absolute
+		width 1px
+		height 1px
+		border-radius 100%
+		opacity .18
+		// transform rotate(55deg)
+	&:before
+		box-shadow 0 0 diameter diameter red
+		animation:
+			hue 5s 0s linear infinite,
+			move1 10s 0s linear infinite
+	&:after
+		box-shadow 0 0 diameter diameter cyan
+		animation:
+			hue 10s 0s linear infinite,
+			move2 20s 0s linear infinite
+@keyframes hue
+	0%
+		filter hue-rotate(0deg)
+	100%
+		filter hue-rotate(360deg)
+@keyframes move1
+	0%
+		top 0vh
+		left 50vw
+	25%
+		left 0vw
+	50%
+		top 100vh
+	75%
+		left 100vw
+	100%
+		top 0vh
+		left 50vw
+@keyframes move2
+	0%
+		top 50vh
+		left 100vw
+	25%
+		top 100vh
+	50%
+		left 0vw
+	75%
+		top 0vh
+	100%
+		top 50vh
+		left 100vw
