@@ -53,16 +53,12 @@ header {
 
 
 
-
-
-
-
-
 @media screen and (max-width: 576px) {
     * {
         display: column;
         text-align: center;
         font-size:inherit;
+       
     }
 
     .bkBtn {
@@ -80,32 +76,3 @@ header {
         text-align: center;
         font-size:inherit;
 }
-
-
-
-
-
-
-
-
-/* .css-selector {
-   background: linear-gradient(221deg, #0f323a, #00dbff);
-   background-size: 1200%;
-   -webkit-animation: AnimationName 32s ease infinite;
-   -moz-animation: AnimationName 32s ease infinite;
-   animation: AnimationName 32s ease infinite;
-
--webkit-keyframes AnimationName {
-   0%{background-position:0% 64%}
-   50%{background-position:100% 37%}
-   100%{background-position:0% 64%}
-
--moz-keyframes AnimationName {
-   0%{background-position:0% 64%}
-   50%{background-position:100% 37%}
-   100%{background-position:0% 64%}
-
-keyframes AnimationName {
-   0%{background-position:0% 64%}
-   50%{background-position:100% 37%}
-   100%{background-position:0% 64%} */
